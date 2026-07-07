@@ -4,7 +4,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 app = FastAPI(
-    title="Vidyanvesha OSM AI Evaluator",
+    title="Vidyanvesha OSM AI",
+    description="AI Agent service for Vidyanvesha OSM",
     version="1.0.0"
 )
 
